@@ -53,13 +53,13 @@ public class MainActivity extends AppCompatActivity {
                     rootView = inflater.inflate(R.layout.view1, container, false);
                     break;
                 case 2:
-                    rootView = inflater.inflate(R.layout.view1, container, false);
+                    rootView = inflater.inflate(R.layout.view2, container, false);
                     break;
                 case 3:
-                    rootView = inflater.inflate(R.layout.view1, container, false);
+                    rootView = inflater.inflate(R.layout.view3, container, false);
                     break;
                 case 4:
-                    rootView = inflater.inflate(R.layout.view1, container, false);
+                    rootView = inflater.inflate(R.layout.view4, container, false);
                     break;
                 case 5:
                     rootView = inflater.inflate(R.layout.view1, container, false);

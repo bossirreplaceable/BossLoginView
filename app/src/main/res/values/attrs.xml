@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="LoginButtonView">
+        <attr name="icon" format="reference"></attr>
         <attr name="iconSize" format="dimension"/>
+        <attr name="color" format="color"></attr>
         <attr name="iconPadding" format="dimension"></attr>
         <attr name="iconCenterAligned" format="boolean"></attr>
         <attr name="roundedCorner" format="boolean"></attr>

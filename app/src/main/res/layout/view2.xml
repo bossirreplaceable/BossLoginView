@@ -10,51 +10,46 @@
     <com.yobo.bossloginview.view.login.LoginView
 
         android:id="@+id/lv1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_alignParentBottom="true"
-        android:layout_margin="10dp"
-        android:text="Sign in with Facebook"
-        android:textColor="@color/white"
+        android:layout_margin="5dp"
         hc:color="@color/blue"
-        hc:iconCenterAligned="false"
+        hc:iconSize="30dp"
+
         />
 
     <com.yobo.bossloginview.view.login.LoginView
         android:id="@+id/lv2"
-        android:layout_above="@+id/lv1"
-        android:layout_width ="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="Sign in with Facebook"
+        android:layout_toRightOf="@+id/lv3"
+        android:layout_width ="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="5dp"
+        android:layout_alignParentBottom="true"
         android:textColor="@color/white"
         hc:icon="@drawable/google_logo"
         hc:color="@color/red"
-        hc:iconCenterAligned="false"
         />
     <com.yobo.bossloginview.view.login.LoginView
         android:id="@+id/lv3"
-        android:layout_above="@+id/lv2"
-        android:layout_width ="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="Sign in with Facebook"
-        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/lv1"
+        android:layout_width ="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="5dp"
         hc:icon="@drawable/linkedin_logo"
         hc:color="@color/green"
-        hc:iconCenterAligned="false"
         />
     <com.yobo.bossloginview.view.login.LoginView
         android:id="@+id/lv4"
-        android:layout_above="@+id/lv3"
-        android:layout_width ="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="Sign in with Facebook"
+       android:layout_toRightOf="@+id/lv2"
+        android:layout_width ="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="5dp"
         android:textColor="@color/white"
         hc:icon="@drawable/twitter_logo"
         hc:color="@color/lightseagreen"
-        hc:iconCenterAligned="false"
+        android:layout_alignParentBottom="true"
         />
 
 </RelativeLayout>
